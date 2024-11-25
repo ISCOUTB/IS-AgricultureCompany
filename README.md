@@ -80,7 +80,7 @@ Compatible con sistemas de contabilidad, plataformas de ventas en línea y otros
 ## 📂 EstructuradelRepositorio
 
 ```sh
-└── AG-AgricultureCompany/
+└── IS-AgricultureCompany/
     ├── .github
     │   └── workflows
     ├── Documentación
