@@ -678,7 +678,6 @@ async def about_us(request: Request):
 
 # Montar archivos estaticos
 app.mount("/styles", StaticFiles(directory="styles"), name="styles2")
-app.mount("/images", StaticFiles(directory="images"), name="Miguel")
+app.mount("/images", StaticFiles(directory="images"), name="Diego")
 app.mount("/styles", StaticFiles(directory="styles"), name="styles")
-app.mount("/images", StaticFiles(directory="images"), name="Camila")
-app.mount("/images", StaticFiles(directory="images"), name="Nestor")
+app.mount("/images", StaticFiles(directory="images"), name="Luis")
