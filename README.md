@@ -195,14 +195,14 @@ Compatible con sistemas de contabilidad, plataformas de ventas en línea y otros
 
 Build the project from source:
 
-1. Clone the AG-AgricultureCompany repository:
+1. Clone the IS-AgricultureCompany repository:
 ```sh
 ❯ git clone https://github.com/ISCOUTB/AG-AgricultureCompany
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd AG-AgricultureCompany
+❯ cd IS-AgricultureCompany
 ```
 
 3. Install the required dependencies:
