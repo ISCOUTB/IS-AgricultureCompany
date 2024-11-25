@@ -103,7 +103,6 @@ Compatible con sistemas de contabilidad, plataformas de ventas en línea y otros
     │   ├── styles
     │   └── templates
     ├── docker-compose.yml
-    └── sonar-project.properties
 ```
 
 ---
