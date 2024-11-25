@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+<div class="page-header">
+    <h1>Harvest Information Form</h1>
+    <p>Enter the crop information:</p>
+    <br>
+    <form action="/harvest_detail" method="post">
+        <input type="hidden" id="op" name="op" value="U">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup_id">ID</span>
+            <input type="number" class="form-control" name="id_harvest" aria-label="Sizing example input"
+                   aria-describedby="inputGroup_idt" placeholder={{id_harvest}} value={{id_harvest}} readonly>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup_harvest_date">Harvest Date</span>
+            <input type="date" class="form-control" name="date" aria-label="Sizing example input"
+                   aria-describedby="inputGroup_date">
+        </div>
+
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup_quantity">Quantity</span>
+            <input type="number" class="form-control" name="quantity" aria-label="Sizing example input"
+                   aria-describedby="inputGroup_quantity" step="0.1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup_area">Area (Km^3)</span>
+            <input type="number" class="form-control" name="area" aria-label="Sizing example input"
+                   aria-describedby="inputGroup_area" step="0.1">
+        </div>
+
+        <br>
+        <input class="btn btn-primary gradient-custom-3" type="submit" name="form" value="Submit"/>
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+
+  <div class="container mt-5">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-xl-10">
+        <div class="card rounded-3 text-black">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="card-body p-md-4 mx-md-4">
+                 <div class="row">
+                    <div class="info-user">
+                        <label>Name:</label>
+                        <div>
+                            <p>{{first_name}} {{last_name}}</p>
+                        </div> <!--First and last name-->
+                        <br>
+                        <label>E-mail:</label>
+                        <div>
+                            <p>{{email}}</p>
+                        </div> <!--User email-->
+                        <br>
+                        <label>Phone:</label>
+                        <div>
+                            <p>{{phone}}</p>
+                        </div> <!--User phone-->
+                        <br>
+                    </div>
+                 </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 align-items-center gradient-custom-2">
+              <div class="text-white px-3 py-4 p-md-5 mx-md-4 text-center">
+                <h4 class="mb-4">Your profile</h4>
+                 <img src="https://img.freepik.com/vector-premium/agricultura-logo-e-marca-simbolo-diseno-grafico-minimalista-logo_67323-367.jpg" class="logo-home" alt="Agriculture logo design">
+                <h4 class="mb-4">Welcome back {{first_name}}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}
