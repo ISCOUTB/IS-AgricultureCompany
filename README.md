@@ -197,7 +197,7 @@ Build the project from source:
 
 1. Clone the IS-AgricultureCompany repository:
 ```sh
-❯ git clone https://github.com/ISCOUTB/AG-AgricultureCompany
+❯ git clone https://github.com/ISCOUTB/IS-AgricultureCompany
 ```
 
 2. Navigate to the project directory:
